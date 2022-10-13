@@ -10,19 +10,17 @@ class ArticlesController < ApplicationController
 	end
 
 	def new
-		# @article = Article.new
+		@article = Article.new
 	end 
 
 	def create
-		render plain: params[:article]
-		# @article = Article.new(article_params)
-		# @article.user = User.first
-		# if @article.save
-		# 	flash[:notice] = "Article created succesfully"
-		# 	redirect_to @article
-		# else
-		# 	render 'new'
-		# end
+		@article = Article.new(params.require(:article).permit(:title, :description))
+		if @article.save
+			flash[:notice] = "Article created succesfully"
+			redirect_to @article
+		else
+			render 'new'
+		end
 	end
 
 
