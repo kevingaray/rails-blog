@@ -5,26 +5,28 @@ class ArticlesController < ApplicationController
 		@article = Article.find(params[:id])
 	end
 
-	# def index
-	# 	@articles = Article.all
-	# end
+	def index
+		@articles = Article.all
+	end
 
-	# def new
-	# 	@article = Article.new
-	# end 
+	def new
+		# @article = Article.new
+	end 
+
+	def create
+		render plain: params[:article]
+		# @article = Article.new(article_params)
+		# @article.user = User.first
+		# if @article.save
+		# 	flash[:notice] = "Article created succesfully"
+		# 	redirect_to @article
+		# else
+		# 	render 'new'
+		# end
+	end
+
 
 	# def edit
-	# end
-
-	# def create
-	# 	@article = Article.new(article_params)
-	# 	@article.user = User.first
-	# 	if @article.save
-	# 		flash[:notice] = "Article created succesfully"
-	# 		redirect_to @article
-	# 	else
-	# 		render 'new'
-	# 	end
 	# end
 
 	# def update
