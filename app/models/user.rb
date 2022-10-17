@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# User ckass
+# User class
 class User < ApplicationRecord
   has_many :articles, dependent: :destroy
   before_save { self.email = email.downcase }
