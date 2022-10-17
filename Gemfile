@@ -39,3 +39,7 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'net-imap', require: false
 gem 'net-pop', require: false
 gem 'net-smtp', require: false
+
+# to add pagynation
+gem 'will_paginate', '~> 3.3'
+gem 'will_paginate-bootstrap5'
