@@ -15,6 +15,7 @@ gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 5.0'
 # to add password
 gem 'bcrypt', '~> 3.1.7'
+gem 'dotenv-rails', require: 'dotenv/rails-now'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
