@@ -26,6 +26,7 @@ group :development do
   gem 'rack-mini-profiler', '~> 2.0'
   gem 'spring'
   gem 'web-console', '>= 4.1.0'
+  gem 'wdm', '>= 0.1.0'
 end
 
 group :test do
@@ -35,7 +36,6 @@ group :test do
 end
 
 gem 'tzinfo-data'
-gem 'wdm', '>= 0.1.0'
 
 # new project
 gem 'net-imap', require: false
