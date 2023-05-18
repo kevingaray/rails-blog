@@ -19,5 +19,6 @@ DB_PASSWORD = admin
 <img src="https://github.com/kevingaray/rails-blog/assets/48739137/d7db03c4-fdd2-43c6-b9ca-35161d545321" width="500">
 
 
-Visit the heroku version
-[Blog kevg](https://blogkevg.herokuapp.com/)
+# Deploy Version
+Visit the deploy version running on Render
+[Blog kevg](https://blog-pwf3.onrender.com/)
