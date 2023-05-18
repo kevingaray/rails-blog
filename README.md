@@ -4,10 +4,11 @@ Bloggin web app created in the Ruby on rails dev course on Udemy
 * Ruby version '3.1.2'
 * Rails version '6.1.7'
 
+
 To run this locally, create a .env file with credentials for the postgres database
 ```
-  username: postgres
-  password: admin
+DB_USERNAME = postgres
+DB_PASSWORD = admin
 ```
 # Screeenshots
 
@@ -16,6 +17,7 @@ To run this locally, create a .env file with credentials for the postgres databa
 <img src="https://github.com/kevingaray/rails-blog/assets/48739137/57b9a1c9-be84-4e5d-8cb3-236106ab98ed" width="500">
 <img src="https://github.com/kevingaray/rails-blog/assets/48739137/616d02c9-e678-425d-9ed4-ecc38df16961" width="500">
 <img src="https://github.com/kevingaray/rails-blog/assets/48739137/d7db03c4-fdd2-43c6-b9ca-35161d545321" width="500">
+
 
 Visit the heroku version
 [Blog kevg](https://blogkevg.herokuapp.com/)
