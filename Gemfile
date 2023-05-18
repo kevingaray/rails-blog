@@ -33,7 +33,8 @@ group :test do
   gem 'webdrivers'
 end
 
-gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'tzinfo-data'
+gem 'wdm', '>= 0.1.0'
 
 # new project
 gem 'net-imap', require: false
